@@ -1,0 +1,79 @@
+[14-Jul-2021 12:27:19 UTC] PHP Warning:  Use of undefined constant THEME_DIR - assumed 'THEME_DIR' (this will throw an Error in a future version of PHP) in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\header.php on line 8
+[14-Jul-2021 12:27:19 UTC] PHP Stack trace:
+[14-Jul-2021 12:27:19 UTC] PHP   1. {main}() C:\Users\mattl\Local Sites\starter-theme\app\public\index.php:0
+[14-Jul-2021 12:27:19 UTC] PHP   2. require() C:\Users\mattl\Local Sites\starter-theme\app\public\index.php:17
+[14-Jul-2021 12:27:19 UTC] PHP   3. require_once() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-blog-header.php:19
+[14-Jul-2021 12:27:19 UTC] PHP   4. include() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\template-loader.php:106
+[14-Jul-2021 12:27:19 UTC] PHP   5. get_header() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\front-page.php:1
+[14-Jul-2021 12:27:19 UTC] PHP   6. locate_template() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\general-template.php:48
+[14-Jul-2021 12:27:19 UTC] PHP   7. load_template() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\template.php:676
+[14-Jul-2021 12:27:19 UTC] PHP   8. require_once() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\template.php:730
+[14-Jul-2021 12:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_register_stylesheet() in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php:4
+Stack trace:
+#0 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): load_stylesheet('')
+#1 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Users\mattl\Lo in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php on line 4
+[14-Jul-2021 13:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_register_stylesheet() in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php:4
+Stack trace:
+#0 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): load_stylesheet('')
+#1 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Users\mattl\Lo in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php on line 4
+[15-Jul-2021 08:29:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_regiter_script() in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php:20
+Stack trace:
+#0 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): load_js('')
+#1 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Users\mattl\Local Sites\st in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php on line 20
+[15-Jul-2021 08:30:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_regiter_script() in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php:20
+Stack trace:
+#0 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): load_js('')
+#1 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Users\mattl\Local Sites\st in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php on line 20
+[15-Jul-2021 08:30:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_regiter_script() in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php:20
+Stack trace:
+#0 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): load_js('')
+#1 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\script-loader.php(2027): do_action('wp_enqueue_scri...')
+#4 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(292): wp_enqueue_scripts('')
+#5 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\Users\mattl\Local Sites\st in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php on line 20
+[15-Jul-2021 12:56:22 UTC] PHP Warning:  Use of undefined constant all - assumed 'all' (this will throw an Error in a future version of PHP) in C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\functions.php on line 5
+[15-Jul-2021 12:56:22 UTC] PHP Stack trace:
+[15-Jul-2021 12:56:22 UTC] PHP   1. {main}() C:\Users\mattl\Local Sites\starter-theme\app\public\index.php:0
+[15-Jul-2021 12:56:22 UTC] PHP   2. require() C:\Users\mattl\Local Sites\starter-theme\app\public\index.php:17
+[15-Jul-2021 12:56:22 UTC] PHP   3. require_once() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-blog-header.php:19
+[15-Jul-2021 12:56:22 UTC] PHP   4. include() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\template-loader.php:106
+[15-Jul-2021 12:56:22 UTC] PHP   5. get_header() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\front-page.php:1
+[15-Jul-2021 12:56:22 UTC] PHP   6. locate_template() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\general-template.php:48
+[15-Jul-2021 12:56:22 UTC] PHP   7. load_template() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\template.php:676
+[15-Jul-2021 12:56:22 UTC] PHP   8. require_once() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\template.php:730
+[15-Jul-2021 12:56:22 UTC] PHP   9. wp_head() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-content\themes\imployable\header.php:13
+[15-Jul-2021 12:56:22 UTC] PHP  10. do_action() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\general-template.php:3009
+[15-Jul-2021 12:56:22 UTC] PHP  11. WP_Hook->do_action() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php:484
+[15-Jul-2021 12:56:22 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php:316
+[15-Jul-2021 12:56:22 UTC] PHP  13. wp_enqueue_scripts() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php:292
+[15-Jul-2021 12:56:22 UTC] PHP  14. do_action() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\script-loader.php:2027
+[15-Jul-2021 12:56:22 UTC] PHP  15. WP_Hook->do_action() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\plugin.php:484
+[15-Jul-2021 12:56:22 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php:316
+[15-Jul-2021 12:56:22 UTC] PHP  17. load_stylesheet() C:\Users\mattl\Local Sites\starter-theme\app\public\wp-includes\class-wp-hook.php:292

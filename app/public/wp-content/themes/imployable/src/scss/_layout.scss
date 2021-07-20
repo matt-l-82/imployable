@@ -1,0 +1,169 @@
+.section-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  padding: 4rem 2rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin-bottom: auto;
+}
+
+/* HEADER */
+#logo {
+  font-size: 2.6rem;
+  color: rgb(10, 34, 50);
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+#logo span {
+  color: rgb(93, 224, 118);
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.main-nav li a {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(10, 34, 50);
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+}
+
+.nav-header {
+  min-height: 10vh;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  width: 100%;
+  margin: auto;
+  padding: 2rem 1rem;
+  z-index: 2;
+  position: fixed;
+}
+
+.line1,
+.line2 {
+  width: 2.8rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background: rgb(10, 34, 50);
+  border-radius: 4px;
+  pointer-events: none;
+}
+
+.burger {
+  cursor: pointer;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1;
+  opacity: 1;
+  clip-path: circle(50px at 100% -10%);
+  -webkit-clip-path: circle(50px at 100% -10%);
+
+  .nav-links {
+    list-style: none;
+    font-size: 2.6rem;
+    flex-basis: 30rem;
+  }
+  .nav-links li {
+    padding: 2rem 0rem;
+
+    a {
+      text-decoration: none;
+      color: var(--charcoal);
+      cursor: pointer;
+    }
+  }
+}
+
+.cursor {
+  width: 3rem;
+  height: 3rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition: all 0.5s ease-in-out;
+  transition-property: background, transform;
+  transform-origin: 75% 75%;
+
+  .cursor.nav-active {
+    background: rgb(93, 244, 118);
+    transform: scale(3);
+  }
+
+  .cursor.explore-active {
+    background: white;
+    transform: scale(3);
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 4rem 0;
+  background-color: var(--color-primary);
+
+  h3 {
+    font-family: "Tungsten-medium";
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--mist);
+    text-decoration: underline;
+    margin-bottom: 1rem;
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    text-decoration: none;
+    padding: 0.6rem 0;
+    color: var(--mist);
+  }
+
+  a {
+    color: var(--charcoal);
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+    color: var(--mist);
+
+    &:hover {
+      color: var(--pepper);
+    }
+  }
+}
+
+.footer-copyright {
+  color: var(--mist);
+}
